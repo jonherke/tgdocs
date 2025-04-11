@@ -1,0 +1,255 @@
+![TigerGraph Logo](https://www.tigergraph.com/wp-content/uploads/2020/05/TG_LOGO.svg) [Docs](https://docs.tigergraph.com/home)
+Page 1[Prev](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt)[Next](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt)
+Search by [Algolia](https://www.algolia.com/docsearch)
+[Products](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt)
+TigerGraph Savanna
+[TigerGraph Savanna](https://docs.tigergraph.com/savanna/main/overview/) [(_TigerGraph Cloud Classic_)](https://docs.tigergraph.com/cloud/main/start/overview)
+TigerGraph Server
+[TigerGraph DB](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+TigerGraph Suite
+[GraphStudio and Admin Portal](https://docs.tigergraph.com/gui/4.2/intro/) [Insights](https://docs.tigergraph.com/insights/4.2/intro/) [GSQL Web Shell](https://docs.tigergraph.com/tigergraph-server/current/gsql-shell/web)
+Query Languages
+[GSQL Language Reference](https://docs.tigergraph.com/gsql-ref/4.2/intro/) [GSQL Web Shell](https://docs.tigergraph.com/tigergraph-server/current/gsql-shell/web) [OpenCypher](https://docs.tigergraph.com/gsql-ref/current/opencypher-in-gsql)
+AI & Graph Intelligence
+[Graph Data Science Library](https://docs.tigergraph.com/graph-ml/3.10/intro/) [Hybrid Graph+Vector Search](https://docs.tigergraph.com/gsql-ref/current/vector/)
+Connectors and APIs
+[Data Connectors](https://docs.tigergraph.com/tigergraph-server/current/data-loading) [pyTigerGraph](https://docs.tigergraph.com/pytigergraph/1.8/intro/) [TigerGraph GraphQL Service](https://docs.tigergraph.com/graphql/3.9/) [JDBC Driver](https://github.com/tigergraph/ecosys/tree/master/tools/etl/tg-jdbc-driver)
+Legacy Documentation
+[ Legacy Documentation ](https://docs-legacy.tigergraph.com)
+[Resources](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt)
+[Developer Site](https://dev.tigergraph.com/) [Community Forum](https://community.tigergraph.com/) [Knowledge Base](https://tigergraph.freshdesk.com/support/solutions)
+[Download](https://dl.tigergraph.com)
+[ TG Savanna](https://savanna.tgcloud.io)
+### [TigerGraph Savanna](https://docs.tigergraph.com/savanna/main/overview/)
+  *     * [Introduction](https://docs.tigergraph.com/savanna/main/overview/)
+      * [Overview](https://docs.tigergraph.com/savanna/main/overview/overview)
+      * [Compare Different Offerings](https://docs.tigergraph.com/savanna/main/overview/comparison_table)
+      * [Release Notes](https://docs.tigergraph.com/savanna/main/overview/release-notes)
+      * [Pricing](https://docs.tigergraph.com/savanna/main/overview/pricing)
+      * [Cost Estimation](https://docs.tigergraph.com/savanna/main/overview/cost-estimation)
+  *     * [Get Started](https://docs.tigergraph.com/savanna/main/get-started/)
+      * [Sign Up](https://docs.tigergraph.com/savanna/main/get-started/how2-signup)
+      * [Log In](https://docs.tigergraph.com/savanna/main/get-started/how2-login)
+  *     * [Workgroups and Workspaces](https://docs.tigergraph.com/savanna/main/workgroup-workspace/)
+      * [Workgroups](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workgroups/workgroup)
+        * [Create Workgroup](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workgroups/how2-create-a-workgroup)
+        * [Permissions](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workgroups/how2-workgroup-access)
+        * [Monitor](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workgroups/monitor-workspaces)
+        * [Backup and Restore](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workgroups/backup-and-restore)
+        * [Network Access](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workgroups/how2-config-network-access)
+      * [Workspaces](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workspaces/workspace)
+        * [Create Workspace](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workspaces/how2-create-a-workspace)
+        * [Workspace Size](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workspaces/workspace-size)
+        * [Workspace Settings](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workspaces/settings)
+        * [RW/RO Workspaces](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workspaces/readwrite-readonly)
+        * [Expand and Shrink](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workspaces/expansion-shrink)
+        * [Schedule](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workspaces/schedule)
+        * [Connect via APIs](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workspaces/connect-via-api)
+  *     * [Graph Development](https://docs.tigergraph.com/savanna/main/graph-development/)
+      * [Load Data](https://docs.tigergraph.com/savanna/main/graph-development/load-data/)
+        * [Load from Local File](https://docs.tigergraph.com/savanna/main/graph-development/load-data/load-from-local)
+        * [Load from AWS S3](https://docs.tigergraph.com/savanna/main/graph-development/load-data/load-from-s3)
+        * [Load from GCS](https://docs.tigergraph.com/savanna/main/graph-development/load-data/load-from-gcs)
+        * [Load from Blob](https://docs.tigergraph.com/savanna/main/graph-development/load-data/load-from-blob)
+        * [Token Function](https://docs.tigergraph.com/savanna/main/graph-development/load-data/token-function)
+        * [Load from Other Sources](https://docs.tigergraph.com/savanna/main/graph-development/load-data/load-from-other-sources)
+          * [JDBC Spark Connection](https://docs.tigergraph.com/savanna/main/graph-development/load-data/jdbc)
+      * [Design Schema](https://docs.tigergraph.com/savanna/main/graph-development/design-schema/)
+      * [GSQL Editor](https://docs.tigergraph.com/savanna/main/graph-development/gsql-editor/)
+        * [Edit Query](https://docs.tigergraph.com/savanna/main/graph-development/gsql-editor/how2-edit-gsql-query)
+      * [Explore Graph](https://docs.tigergraph.com/savanna/main/graph-development/explore-graph/)
+        * [Pattern Search](https://docs.tigergraph.com/savanna/main/graph-development/explore-graph/how2-use-pattern-search)
+      * [Advanced Features](https://docs.tigergraph.com/savanna/main/graph-development/advanced-features/)
+        * [Export Data to S3](https://docs.tigergraph.com/savanna/main/graph-development/advanced-features/write2-s3)
+        * [Configure UDF](https://docs.tigergraph.com/savanna/main/graph-development/advanced-features/configure-udf)
+  *     * [REST API (Preview)](https://docs.tigergraph.com/savanna/main/rest-api/)
+      * [Authentication](https://docs.tigergraph.com/savanna/main/rest-api/authentication)
+      * [Endpoints](https://docs.tigergraph.com/savanna/main/rest-api/endpoints)
+      * [Definitions](https://docs.tigergraph.com/savanna/main/rest-api/definitions)
+  *     * [Marketplace](https://docs.tigergraph.com/savanna/main/integrations/)
+      * [Solutions](https://docs.tigergraph.com/savanna/main/integrations/solutions)
+      * [Add-Ons](https://docs.tigergraph.com/savanna/main/integrations/add-ons)
+        * [GraphStudio](https://docs.tigergraph.com/savanna/main/integrations/graphstudio)
+        * [Insights](https://docs.tigergraph.com/savanna/main/integrations/insights)
+        * [GraphQL](https://docs.tigergraph.com/savanna/main/integrations/graphql)
+  *     * [Administration](https://docs.tigergraph.com/savanna/main/administration/)
+      * [Invite Users](https://docs.tigergraph.com/savanna/main/administration/how2-invite-users)
+      * [Access Management](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt)
+      * [Security](https://docs.tigergraph.com/savanna/main/administration/security/)
+        * [IDP integration with SSO](https://docs.tigergraph.com/savanna/main/administration/security/idp)
+        * [Password Policy](https://docs.tigergraph.com/savanna/main/administration/security/password-policy)
+      * [Billing](https://docs.tigergraph.com/savanna/main/administration/billing/)
+        * [Payment Method](https://docs.tigergraph.com/savanna/main/administration/billing/payment-methods)
+        * [Invoices](https://docs.tigergraph.com/savanna/main/administration/billing/invoices)
+      * [Settings](https://docs.tigergraph.com/savanna/main/administration/settings/)
+        * [Organization Management](https://docs.tigergraph.com/savanna/main/administration/settings/how2-use-organization-mgnt)
+        * [API Keys](https://docs.tigergraph.com/savanna/main/administration/settings/how2-create-api-key)
+  *     * [Resources](https://docs.tigergraph.com/savanna/main/resources/)
+      * [Amazon Web Services (AWS)](https://docs.tigergraph.com/savanna/main/resources/aws)
+      * [Google Cloud Platform (GCP)](https://docs.tigergraph.com/savanna/main/resources/gcp)
+      * [Microsoft Azure](https://docs.tigergraph.com/savanna/main/resources/azure)
+      * [Glossary](https://docs.tigergraph.com/savanna/main/resources/glossary)
+      * [Support](https://docs.tigergraph.com/savanna/main/resources/support)
+      * [TigerGraph Savanna FAQs](https://docs.tigergraph.com/savanna/main/resources/faqs)
+      * [Subscription Plans and Quota Policy](https://docs.tigergraph.com/savanna/main/resources/quota_policy)
+
+
+TigerGraph Savanna
+[Fully-Managed: Savanna](https://docs.tigergraph.com/savanna/main/overview/)
+[Self-Managed: TigerGraph DB](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+[Install](https://docs.tigergraph.com/tigergraph-server/current/getting-started/) [Manage](https://docs.tigergraph.com/tigergraph-server/current/system-management/)
+Tutorials & Guides
+[GSQL](https://github.com/tigergraph/ecosys/blob/master/tutorials/GSQL.md) [OpenCypher in GSQL](https://github.com/tigergraph/ecosys/blob/master/tutorials/Cypher.md) [Hybrid Vector Search](https://github.com/tigergraph/ecosys/blob/master/tutorials/VectorSearch.md)
+Reference Manuals
+[GSQL](https://docs.tigergraph.com/gsql-ref/4.2/intro/) [OpenCypher](https://docs.tigergraph.com/gsql-ref/current/opencypher-in-gsql/) [Vector](https://docs.tigergraph.com/gsql-ref/current/vector/) [REST APIs](https://docs.tigergraph.com/tigergraph-server/current/api/) [Configuration Parameters](https://docs.tigergraph.com/tigergraph-server/current/reference/configuration-parameters)
+Visual Tools
+[Develop: GraphStudio](https://docs.tigergraph.com/gui/4.2/intro/) [Administer: Admin Portal](https://docs.tigergraph.com/gui/4.2/intro/) [Visualize: Insights](https://docs.tigergraph.com/insights/4.2/intro/)
+AI & Data Science
+[Graph Algorithms](https://docs.tigergraph.com/graph-ml/3.10/intro/) [pyTigerGraph](https://docs.tigergraph.com/pytigergraph/1.8/intro/) [TigerGraphX](https://github.com/tigergraph/ecosys/blob/master/tutorials/TigerGraphX.md) [ML Workbench](https://docs.tigergraph.com/ml-workbench/1.4/intro/) [CoPilot](https://docs.tigergraph.com/tg-copilot/intro/)
+  * [TigerGraph DB](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+    * [4.2 Pre](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+    * [4.1](https://docs.tigergraph.com/tigergraph-server/4.1/intro/)
+    * [3.11](https://docs.tigergraph.com/tigergraph-server/3.11/intro/)
+    * [3.10](https://docs.tigergraph.com/tigergraph-server/3.10/intro/)
+    * [3.9](https://docs.tigergraph.com/tigergraph-server/3.9/intro/)
+    * [3.6](https://docs.tigergraph.com/tigergraph-server/3.6/intro/)
+  * [GSQL Language Reference](https://docs.tigergraph.com/gsql-ref/4.2/intro/)
+    * [4.2 Pre](https://docs.tigergraph.com/gsql-ref/4.2/intro/)
+    * [4.1](https://docs.tigergraph.com/gsql-ref/4.1/intro/)
+    * [3.11](https://docs.tigergraph.com/gsql-ref/3.11/intro/)
+    * [3.10](https://docs.tigergraph.com/gsql-ref/3.10/intro/)
+    * [3.9](https://docs.tigergraph.com/gsql-ref/3.9/intro/)
+    * [3.6](https://docs.tigergraph.com/gsql-ref/3.6/intro/intro)
+  * [TigerGraph Savanna](https://docs.tigergraph.com/savanna/main/overview/)
+  * [GraphStudio and Admin Portal](https://docs.tigergraph.com/gui/4.2/intro/)
+    * [4.2 Pre](https://docs.tigergraph.com/gui/4.2/intro/)
+    * [4.1](https://docs.tigergraph.com/gui/4.1/intro/)
+    * [3.11](https://docs.tigergraph.com/gui/3.11/intro/)
+    * [3.10](https://docs.tigergraph.com/gui/3.10/intro/)
+    * [3.9](https://docs.tigergraph.com/gui/3.9/intro/)
+    * [3.6](https://docs.tigergraph.com/gui/3.6/graphstudio/overview)
+  * [Insights](https://docs.tigergraph.com/insights/4.2/intro/)
+    * [4.2 Pre](https://docs.tigergraph.com/insights/4.2/intro/)
+    * [4.1](https://docs.tigergraph.com/insights/4.1/intro/)
+    * [3.11](https://docs.tigergraph.com/insights/3.11/intro/)
+    * [3.10](https://docs.tigergraph.com/insights/3.10/intro/)
+    * [3.9](https://docs.tigergraph.com/insights/3.9/intro/)
+  * [Graph Data Science Library](https://docs.tigergraph.com/graph-ml/3.10/intro/)
+    * [3.10](https://docs.tigergraph.com/graph-ml/3.10/intro/)
+  * [pyTigerGraph](https://docs.tigergraph.com/pytigergraph/1.8/intro/)
+    * [1.8](https://docs.tigergraph.com/pytigergraph/1.8/intro/)
+    * [1.7](https://docs.tigergraph.com/pytigergraph/1.7/intro/)
+    * [1.6](https://docs.tigergraph.com/pytigergraph/1.6/intro/)
+  * [TigerGraph ML Workbench](https://docs.tigergraph.com/ml-workbench/1.4/intro/)
+    * [1.4](https://docs.tigergraph.com/ml-workbench/1.4/intro/)
+  * [TigerGraph GraphQL Service](https://docs.tigergraph.com/graphql/3.9/)
+    * [3.9](https://docs.tigergraph.com/graphql/3.9/)
+  * [TigerGraph CoPilot](https://docs.tigergraph.com/tg-copilot/intro/)
+    * [main](https://docs.tigergraph.com/tg-copilot/intro/)
+  * [TigerGraph Cloud Classic](https://docs.tigergraph.com/cloud/main/start/overview)
+
+
+[](https://docs.tigergraph.com/home/)
+  * [TigerGraph Savanna default](https://docs.tigergraph.com/savanna/main/overview/)
+  * [Administration](https://docs.tigergraph.com/savanna/main/administration/)
+  * [Access Management](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt)
+
+
+[Edit this Page](https://github.com/tigergraph/cloud-docs/edit/main/modules/savanna/modules/administration/pages/how2-access-mgnt.adoc)
+### Contents
+  * [Resource Level](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_resource_level)
+  * [User Level Permission](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_user_level_permission)
+  * [How to Manage User Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_how_to_manage_user_permissions)
+  * [Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_permissions)
+  * [Org Level Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_org_level_permissions)
+  * [Workgroup level Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_workgroup_level_permissions)
+  * [Workspace level Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_workspace_level_permissions)
+  * [Next Steps](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_next_steps)
+
+
+# Access Management
+### Contents
+  * [Resource Level](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_resource_level)
+  * [User Level Permission](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_user_level_permission)
+  * [How to Manage User Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_how_to_manage_user_permissions)
+  * [Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_permissions)
+  * [Org Level Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_org_level_permissions)
+  * [Workgroup level Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_workgroup_level_permissions)
+  * [Workspace level Permissions](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_workspace_level_permissions)
+  * [Next Steps](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_next_steps)
+
+
+As an organization administrator, you can define permissions for users, controlling their level of access to workspaces, workgroup and features. This allows you to ensure data security and enforce access control policies within your organization. In TigerGraph Savanna, access management allows you to configure permissions at both the **Resource** level and the **User** level.
+## [](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_resource_level)Resource Level
+At the resource level, you can configure permissions that apply to specific workspaces within your TigerGraph Savanna organization. Resource-level permissions determine what actions a user can perform on a specific resource.
+These permissions allow you to control access to individual resources based on the needs and responsibilities of different users.  
+---  
+You can go to [How to Manage Workgroup and Workspace Permissions](https://docs.tigergraph.com/savanna/main/workgroup-workspace/workgroups/how2-workgroup-access) to manage access at the resource level.
+## [](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_user_level_permission)User Level Permission
+At the user level, you can define permissions that apply to individual users or groups of users. User-level permissions determine what actions a user can perform across your entire TigerGraph Savanna organization.
+These permissions are typically related to administrative tasks and access to workgroups and workspaces.  
+---  
+## [](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_how_to_manage_user_permissions)How to Manage User Permissions
+To manage user permissions:
+  1. Click on a **User Name** from user list.
+![userlist](https://docs.tigergraph.com/savanna/main/administration/_images/userlist.png)
+![permissions select a user](https://docs.tigergraph.com/savanna/main/administration/_images/permissions-select%20a%20user.png)
+  2. You will now be able to see the **Permissions** on the **User Detail** panel of the selected user.
+![Screenshot 2024 04 28 at 4.24.00 PM](https://docs.tigergraph.com/savanna/main/administration/_images/Screenshot%202024-04-28%20at%204.24.00 PM.png)
+  3. Once you make a change to one of the dropdown menus. Select either the **Cancel** button to cancel the changes or the **Save** button to save the changes.
+![permissions saveorCancealchanges](https://docs.tigergraph.com/savanna/main/administration/_images/permissions_saveorCancealchanges.png)
+
+
+## [](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_permissions)Permissions
+Please refer to the following tables of the roles and permissions for the organization, workgroup, and workspace.
+### [](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_org_level_permissions)Org Level Permissions
+Table 1. Org Level Permission | Org Admin | Billing Admin | Billing Viewer | Workgroup Admin | Workspace Admin | Workspace Member  
+---|---|---|---|---|---|---  
+Manage Organization | Yes | No | No | No | No | No  
+Manage Org Permission | Yes | No | No | No | No | No  
+Manage Billing | Yes | No | No | No | No | No  
+Invite new members to org | Yes | No | No | No | No | No  
+Manage access for the org | Yes | No | No | No | No | No  
+Create Workgroup | Yes | No | No | No | No | No  
+Configure Add-Ons | Yes | No | No | No | No | No  
+Manage Payment Methods | Yes | Yes | No | No | No | No  
+View Billing Information | Yes | Yes | Yes | No | No | No  
+### [](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_workgroup_level_permissions)Workgroup level Permissions
+Table 2. Workgroup Level Permission | Org Admin | Billing Admin | Billing Viewer | Workgroup Admin | Workspace Admin | Workspace Member  
+---|---|---|---|---|---|---  
+Edit workgroup | Yes | No | No | Yes | No | No  
+Delete workgroup | Yes | No | No | No | No | No  
+Create new workspace within workgroup | Yes | No | No | Yes | No | No  
+Manage permissions for workgroup | Yes | No | No | Yes | No | No  
+### [](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_workspace_level_permissions)Workspace level Permissions
+Table 3. Workspace Level Permission | Org Admin | Billing Admin | Billing Viewer | Workgroup Admin | Workspace Admin | Workspace Member  
+---|---|---|---|---|---|---  
+Edit workspace | Yes | No | No | Yes | Yes | No  
+Delete workspace | Yes | No | No | Yes | No | No  
+Manage permissions for workspace | Yes | No | No | Yes | Yes | No  
+Run GSQL Editor | Yes | No | No | Yes | Yes | Yes *  
+Loading Data | Yes | No | No | Yes | Yes | Yes *  
+Data Insights | Yes | No | No | Yes | Yes | Yes *  
+Install Solutions | Yes | No | No | Yes | Yes | Yes *  
+`*` Additional database role(s) or permission(s) may need to be assigned to the user for certain actions.  
+---  
+## [](https://docs.tigergraph.com/savanna/main/administration/how2-access-mgnt#_next_steps)Next Steps
+Next, learn about [Organization Management](https://docs.tigergraph.com/savanna/main/administration/settings/how2-use-organization-mgnt) or continue on to learn about [Security](https://docs.tigergraph.com/savanna/main/administration/security/) or additional [Resources](https://docs.tigergraph.com/savanna/main/resources/) in TigerGraph Savanna.
+Return to the [Overview](https://docs.tigergraph.com/savanna/main/overview/) page for a different topic.
+3 Twin Dolphin Drive, Ste 225 Redwood City, CA 94065 
+Copyright © 2025 TigerGraph
+  * ## Resources
+    * [Support](https://www.tigergraph.com/support/)
+    * [Community](https://community.tigergraph.com/)
+    * [Developer Site](https://dev.tigergraph.com/)
+    * [Test Drive](https://testdrive.tigergraph.com/)
+  * ## Social
+    * [Linkedin](https://www.linkedin.com/company/tigergraph/)
+    * [Facebook](https://www.facebook.com/TigerGraphDB/)
+    * [Twitter](https://twitter.com/tigergraphdb)
+  * ## Legal
+    * [Privacy Policy](https://www.tigergraph.com/privacy-policy/)
+    * [Terms of Use](https://www.tigergraph.com/terms/)
+    * [Sitemap](https://docs.tigergraph.com/sitemap.xml)
+
+

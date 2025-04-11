@@ -1,0 +1,429 @@
+![TigerGraph Logo](https://www.tigergraph.com/wp-content/uploads/2020/05/TG_LOGO.svg) [Docs](https://docs.tigergraph.com/home)
+Page 1[Prev](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements)[Next](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements)
+Search by [Algolia](https://www.algolia.com/docsearch)
+[Products](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements)
+TigerGraph Savanna
+[TigerGraph Savanna](https://docs.tigergraph.com/savanna/main/overview/) [(_TigerGraph Cloud Classic_)](https://docs.tigergraph.com/cloud/main/start/overview)
+TigerGraph Server
+[TigerGraph DB](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+TigerGraph Suite
+[GraphStudio and Admin Portal](https://docs.tigergraph.com/gui/4.2/intro/) [Insights](https://docs.tigergraph.com/insights/4.2/intro/) [GSQL Web Shell](https://docs.tigergraph.com/tigergraph-server/current/gsql-shell/web)
+Query Languages
+[GSQL Language Reference](https://docs.tigergraph.com/gsql-ref/4.2/intro/) [GSQL Web Shell](https://docs.tigergraph.com/tigergraph-server/current/gsql-shell/web) [OpenCypher](https://docs.tigergraph.com/gsql-ref/current/opencypher-in-gsql)
+AI & Graph Intelligence
+[Graph Data Science Library](https://docs.tigergraph.com/graph-ml/3.10/intro/) [Hybrid Graph+Vector Search](https://docs.tigergraph.com/gsql-ref/current/vector/)
+Connectors and APIs
+[Data Connectors](https://docs.tigergraph.com/tigergraph-server/current/data-loading) [pyTigerGraph](https://docs.tigergraph.com/pytigergraph/1.8/intro/) [TigerGraph GraphQL Service](https://docs.tigergraph.com/graphql/3.9/) [JDBC Driver](https://github.com/tigergraph/ecosys/tree/master/tools/etl/tg-jdbc-driver)
+Legacy Documentation
+[ Legacy Documentation ](https://docs-legacy.tigergraph.com)
+[Resources](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements)
+[Developer Site](https://dev.tigergraph.com/) [Community Forum](https://community.tigergraph.com/) [Knowledge Base](https://tigergraph.freshdesk.com/support/solutions)
+[Download](https://dl.tigergraph.com)
+[ TG Savanna](https://savanna.tgcloud.io)
+### [TigerGraph DB](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+  *     * [TigerGraph DB Release Notes](https://docs.tigergraph.com/tigergraph-server/4.2/release-notes/)
+  *     * [Architecture](https://docs.tigergraph.com/tigergraph-server/4.2/intro/internal-architecture)
+      * [Transaction Processing and ACID Support](https://docs.tigergraph.com/tigergraph-server/4.2/intro/transaction-and-acid)
+      * [Continuous Availability Overview](https://docs.tigergraph.com/tigergraph-server/4.2/intro/continuous-availability-overview)
+  *     * Get Started
+      * [Installation](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/)
+        * [On Docker](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/docker)
+        * [On Linux](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/linux)
+          * [Hardware and Software Requirements](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements)
+          * [Linux On Bare Metal](https://docs.tigergraph.com/tigergraph-server/4.2/installation/bare-metal-install)
+          * [Post Install Checks](https://docs.tigergraph.com/tigergraph-server/4.2/installation/post-install-check)
+        * [On Kubernetes](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/kubernetes)
+        * [On Cloud Marketplace](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/cloud-images/)
+          * [AWS](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/cloud-images/aws)
+          * [Azure](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/cloud-images/azure)
+          * [GCP](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/cloud-images/gcp)
+        * [Advanced License Issues](https://docs.tigergraph.com/tigergraph-server/4.2/installation/license)
+        * [Changing Ports](https://docs.tigergraph.com/tigergraph-server/4.2/installation/change-port)
+        * [Change IP or Hostname](https://docs.tigergraph.com/tigergraph-server/4.2/installation/change-ip-or-hostname)
+        * [Upgrade](https://docs.tigergraph.com/tigergraph-server/4.2/installation/upgrade)
+        * [Uninstallation](https://docs.tigergraph.com/tigergraph-server/4.2/installation/uninstallation)
+      * [The GSQL Shell](https://docs.tigergraph.com/tigergraph-server/4.2/gsql-shell/)
+        * [GSQL Shell Sessions](https://docs.tigergraph.com/tigergraph-server/4.2/gsql-shell/gsql-sessions)
+        * [Using a Remote GSQL Client](https://docs.tigergraph.com/tigergraph-server/4.2/gsql-shell/using-a-remote-gsql-client)
+        * [The GSQL Shell](https://docs.tigergraph.com/tigergraph-server/4.2/gsql-shell/)
+  *     * [Clustering](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/)
+      * Cluster Resizing
+        * [Cluster Expansion](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/expand-a-cluster)
+        * [Cluster Shrinking](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/shrink-a-cluster)
+        * [Cluster Repartition](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/repartition-a-cluster)
+        * [Removal of Failed Nodes](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/remove-failed-node)
+        * [Replace a Node](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/how_to-replace-a-node-in-a-cluster)
+      * [Cross-Region Replication](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/crr-index)
+        * [Set Up Cross-Region Replication](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/set-up-crr)
+        * [Fail over to the DR cluster](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/fail-over)
+        * [Troubleshooting CRR](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/troubleshooting)
+        * [Cross-Region Replication FAQ](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/crr-faq)
+      * [High Availability](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/ha-overview)
+        * [High Availability Cluster Configuration](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/ha-cluster)
+        * [Region Aware Cluster Configuration](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/region-aware)
+        * [GSQL Server HA](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/ha-for-gsql-server)
+        * [Application Server HA](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/ha-for-application-server)
+      * [Cluster Commands](https://docs.tigergraph.com/tigergraph-server/4.2/cluster-and-ha-management/cluster-commands)
+  *     * [Set Up Data Connectors](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/)
+      * [Overview](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/data-loading-overview)
+      * [Load from Local Files](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/load-local-files)
+      * [from Cloud Storage](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/load-from-cloud)
+      * [from Data Warehouse](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/load-from-warehouse)
+      * [from External Kafka](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/load-from-kafka)
+        * [Avro Data Validation](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/avro-validation-with-kafka)
+        * [Kafka SSL Security Guide](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/kafka-ssl-security-guide)
+      * [from Spark](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/load-from-spark-dataframe)
+      * [to Spark](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/read-to-spark-dataframe)
+      * [Externalize Kafka Configs](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/externalizing-kafka-configs)
+      * [Manage Data Sources](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/manage-data-source)
+      * [Data Loading V2 (Beta)](https://docs.tigergraph.com/tigergraph-server/4.2/data-loading/data-loading-v2)
+  *     * [Querying](https://docs.tigergraph.com/tigergraph-server/4.2/data-querying/README)
+      * [Define a Graph Schema](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/database-definition)
+  *     * [Manage Your Database](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/)
+      * [GADMIN Utility](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/management-commands)
+      * [Access Management](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/)
+        * Authentication
+          * [Enabling User Authentication](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/enabling-user-authentication)
+          * [User Credentials](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/user-credentials)
+          * [Single Sign-On](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/sso)
+          * [Lightweight Directory Access Protocol (LDAP)](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/ldap)
+          * [OIDC JWT Authentication](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/jwt-token)
+        * Authorization
+          * [User Management](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/user-management)
+          * [Access Control Model](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/access-control-model)
+          * [Fine-Grained Query Privileges](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/fine-grained-query-privileges)
+            * [Migrate Query Privileges from 3.x to 4.1](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/query-privilege-migration)
+          * [Role Management](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/role-management)
+          * [Row Policies](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/rbac-row-policy/row-policy-overview)
+            * [Key Concepts](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/rbac-row-policy/rbac-row-policy)
+            * [Set Up Row Policy](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/rbac-row-policy/setup-row-policy)
+          * [Access Control Lists (ACLs) (Deprecated)](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/acl-management)
+      * [Backup and Export](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/)
+        * [Backup and Restore Configurations](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/configurations)
+        * [Back up a Database Cluster](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/backup-cluster)
+        * [Incremental Backup](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/incremental-backup)
+        * [Online Backup](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/online-backup)
+        * Restore
+          * [Restore](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/restore-backup-same)
+          * [Restore to a Different Cluster](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/restore-cross-cluster)
+          * [Point-in-Time Restore](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/point-in-time-restore)
+        * Export/Import
+          * [Database Import/Export All Graphs](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/database-import-export)
+          * [Import/Export Individual Graphs](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/single-graph-import-export)
+        * [Legacy Backup and Restore](https://docs.tigergraph.com/tigergraph-server/4.2/backup-and-restore/gbar-legacy)
+        * [Change Data Capture (CDC)](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/change-data-capture/cdc-overview)
+          * [CDC Setup](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/change-data-capture/cdc-setup)
+          * [CDC Message Examples](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/change-data-capture/cdc-message-example)
+          * [CDC Monitoring and Reset](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/change-data-capture/cdc-state-monitoring)
+      * [Kubernetes](https://docs.tigergraph.com/tigergraph-server/4.2/kubernetes/)
+        * [Kubernetes Operator](https://docs.tigergraph.com/tigergraph-server/4.2/kubernetes/k8s-operator/)
+      * [Logs](https://docs.tigergraph.com/tigergraph-server/4.2/troubleshooting/log-files)
+      * [Resources and Processes](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/resource-and-process-mgmt)
+        * [Memory Management](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/memory-management)
+        * [Service Management](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/manage-services)
+        * [Workload Management](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/workload-management)
+        * [Using gadmin](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/management-with-gadmin)
+        * [Metrics Reports](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/system-metrics)
+      * [Security](https://docs.tigergraph.com/tigergraph-server/4.2/security/)
+        * [Auditing Privileged User Actions](https://docs.tigergraph.com/tigergraph-server/4.2/security/audit-privileged-actions)
+        * [Encrypting Connections](https://docs.tigergraph.com/tigergraph-server/4.2/security/encrypting-connections)
+        * [Encrypting Data At Rest](https://docs.tigergraph.com/tigergraph-server/4.2/security/encrypting-data-at-rest)
+        * [File Input Policy](https://docs.tigergraph.com/tigergraph-server/4.2/security/gsql-file-input-policy)
+        * [File Output Policy](https://docs.tigergraph.com/tigergraph-server/4.2/security/file-output-policy)
+        * [Login Policy](https://docs.tigergraph.com/tigergraph-server/4.2/security/login-protection)
+        * [Password Policy](https://docs.tigergraph.com/tigergraph-server/4.2/security/password-policy)
+  *     * References
+      * [Best Practices](https://docs.tigergraph.com/tigergraph-server/4.2/additional-resources/best-practice-guides/best-practices-overview)
+      * [Configuration Parameters](https://docs.tigergraph.com/tigergraph-server/4.2/reference/configuration-parameters)
+      * [gadmin Commands](https://docs.tigergraph.com/tigergraph-server/4.2/system-management/management-commands)
+      * [REST Endpoints](https://docs.tigergraph.com/tigergraph-server/4.2/API/)
+        * [GSQL Endpoints](https://docs.tigergraph.com/tigergraph-server/4.2/API/gsql-endpoints)
+        * [RESTPP & Infra Endpoints](https://docs.tigergraph.com/tigergraph-server/4.2/API/built-in-endpoints)
+        * [Upsert Data](https://docs.tigergraph.com/tigergraph-server/4.2/API/upsert-rest)
+      * [RBAC Object-Based Privileges](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/rbac-row-policy/row-policy-privileges-table)
+        * [RBAC Row Policy EBNF](https://docs.tigergraph.com/tigergraph-server/4.2/user-access/rbac-row-policy/row-policy-ebnf)
+        * [List of Legacy Privilege Syntax](https://docs.tigergraph.com/tigergraph-server/4.2/reference/list-of-privileges)
+      * [List of Ports](https://docs.tigergraph.com/tigergraph-server/4.2/reference/ports)
+      * [Return codes](https://docs.tigergraph.com/tigergraph-server/4.2/reference/return-codes)
+      * [Troubleshooting and FAQs](https://docs.tigergraph.com/tigergraph-server/4.2/troubleshooting/troubleshooting-guide)
+      * More References
+        * [Compare TigerGraph Editions](https://docs.tigergraph.com/tigergraph-server/4.2/intro/comparison-of-editions)
+        * [Documentation for Legacy Versions](https://docs.tigergraph.com/tigergraph-server/4.2/additional-resources/legacy-tg-versions)
+        * [Patents and Third Party Software](https://docs.tigergraph.com/tigergraph-server/4.2/reference/patents-and-third-party-software)
+        * [TigerGraph Glossary](https://docs.tigergraph.com/tigergraph-server/4.2/reference/glossary)
+        * [TigerGraph Release And Patch Process](https://docs.tigergraph.com/tigergraph-server/4.2/intro/release-process)
+
+
+TigerGraph DB 4.2 Pre
+[Fully-Managed: Savanna](https://docs.tigergraph.com/savanna/main/overview/)
+[Self-Managed: TigerGraph DB](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+[Install](https://docs.tigergraph.com/tigergraph-server/current/getting-started/) [Manage](https://docs.tigergraph.com/tigergraph-server/current/system-management/)
+Tutorials & Guides
+[GSQL](https://github.com/tigergraph/ecosys/blob/master/tutorials/GSQL.md) [OpenCypher in GSQL](https://github.com/tigergraph/ecosys/blob/master/tutorials/Cypher.md) [Hybrid Vector Search](https://github.com/tigergraph/ecosys/blob/master/tutorials/VectorSearch.md)
+Reference Manuals
+[GSQL](https://docs.tigergraph.com/gsql-ref/4.2/intro/) [OpenCypher](https://docs.tigergraph.com/gsql-ref/current/opencypher-in-gsql/) [Vector](https://docs.tigergraph.com/gsql-ref/current/vector/) [REST APIs](https://docs.tigergraph.com/tigergraph-server/current/api/) [Configuration Parameters](https://docs.tigergraph.com/tigergraph-server/current/reference/configuration-parameters)
+Visual Tools
+[Develop: GraphStudio](https://docs.tigergraph.com/gui/4.2/intro/) [Administer: Admin Portal](https://docs.tigergraph.com/gui/4.2/intro/) [Visualize: Insights](https://docs.tigergraph.com/insights/4.2/intro/)
+AI & Data Science
+[Graph Algorithms](https://docs.tigergraph.com/graph-ml/3.10/intro/) [pyTigerGraph](https://docs.tigergraph.com/pytigergraph/1.8/intro/) [TigerGraphX](https://github.com/tigergraph/ecosys/blob/master/tutorials/TigerGraphX.md) [ML Workbench](https://docs.tigergraph.com/ml-workbench/1.4/intro/) [CoPilot](https://docs.tigergraph.com/tg-copilot/intro/)
+  * [TigerGraph DB](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+    * [4.2 Pre](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+    * [4.1](https://docs.tigergraph.com/tigergraph-server/4.1/intro/)
+    * [3.11](https://docs.tigergraph.com/tigergraph-server/3.11/intro/)
+    * [3.10](https://docs.tigergraph.com/tigergraph-server/3.10/intro/)
+    * [3.9](https://docs.tigergraph.com/tigergraph-server/3.9/intro/)
+    * [3.6](https://docs.tigergraph.com/tigergraph-server/3.6/intro/)
+  * [GSQL Language Reference](https://docs.tigergraph.com/gsql-ref/4.2/intro/)
+    * [4.2 Pre](https://docs.tigergraph.com/gsql-ref/4.2/intro/)
+    * [4.1](https://docs.tigergraph.com/gsql-ref/4.1/intro/)
+    * [3.11](https://docs.tigergraph.com/gsql-ref/3.11/intro/)
+    * [3.10](https://docs.tigergraph.com/gsql-ref/3.10/intro/)
+    * [3.9](https://docs.tigergraph.com/gsql-ref/3.9/intro/)
+    * [3.6](https://docs.tigergraph.com/gsql-ref/3.6/intro/intro)
+  * [TigerGraph Savanna](https://docs.tigergraph.com/savanna/main/overview/)
+  * [GraphStudio and Admin Portal](https://docs.tigergraph.com/gui/4.2/intro/)
+    * [4.2 Pre](https://docs.tigergraph.com/gui/4.2/intro/)
+    * [4.1](https://docs.tigergraph.com/gui/4.1/intro/)
+    * [3.11](https://docs.tigergraph.com/gui/3.11/intro/)
+    * [3.10](https://docs.tigergraph.com/gui/3.10/intro/)
+    * [3.9](https://docs.tigergraph.com/gui/3.9/intro/)
+    * [3.6](https://docs.tigergraph.com/gui/3.6/graphstudio/overview)
+  * [Insights](https://docs.tigergraph.com/insights/4.2/intro/)
+    * [4.2 Pre](https://docs.tigergraph.com/insights/4.2/intro/)
+    * [4.1](https://docs.tigergraph.com/insights/4.1/intro/)
+    * [3.11](https://docs.tigergraph.com/insights/3.11/intro/)
+    * [3.10](https://docs.tigergraph.com/insights/3.10/intro/)
+    * [3.9](https://docs.tigergraph.com/insights/3.9/intro/)
+  * [Graph Data Science Library](https://docs.tigergraph.com/graph-ml/3.10/intro/)
+    * [3.10](https://docs.tigergraph.com/graph-ml/3.10/intro/)
+  * [pyTigerGraph](https://docs.tigergraph.com/pytigergraph/1.8/intro/)
+    * [1.8](https://docs.tigergraph.com/pytigergraph/1.8/intro/)
+    * [1.7](https://docs.tigergraph.com/pytigergraph/1.7/intro/)
+    * [1.6](https://docs.tigergraph.com/pytigergraph/1.6/intro/)
+  * [TigerGraph ML Workbench](https://docs.tigergraph.com/ml-workbench/1.4/intro/)
+    * [1.4](https://docs.tigergraph.com/ml-workbench/1.4/intro/)
+  * [TigerGraph GraphQL Service](https://docs.tigergraph.com/graphql/3.9/)
+    * [3.9](https://docs.tigergraph.com/graphql/3.9/)
+  * [TigerGraph CoPilot](https://docs.tigergraph.com/tg-copilot/intro/)
+    * [main](https://docs.tigergraph.com/tg-copilot/intro/)
+  * [TigerGraph Cloud Classic](https://docs.tigergraph.com/cloud/main/start/overview)
+
+
+[](https://docs.tigergraph.com/home/)
+  * [TigerGraph DB 4.2 Pre](https://docs.tigergraph.com/tigergraph-server/4.2/intro/)
+  * Get Started
+  * [Installation](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/)
+  * [On Linux](https://docs.tigergraph.com/tigergraph-server/4.2/getting-started/linux)
+  * [Hardware and Software Requirements](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements)
+
+
+[Edit this Page](https://github.com/tigergraph/server-docs/edit/4.2/modules/installation/pages/hw-and-sw-requirements.adoc)
+### Contents
+  * [Hardware Requirements](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_hardware_requirements)
+  * [Certified Operating Systems](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_certified_operating_systems)
+  * [Prerequisite Software](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_prerequisite_software)
+  * [Shell](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_shell)
+  * [Utilities](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_utilities)
+  * [NTP](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_ntp)
+  * [Firewall](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_fw)
+  * [Browser](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_browser)
+  * [Hardware Recommendations](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_hardware_recommendations)
+  * [Personal Use](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_personal_use)
+  * [Development, UAT, or SIT System](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_development_uat_or_sit_system)
+  * [Production System](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_production_system)
+  * [Additional Considerations](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_additional_considerations)
+
+
+# Hardware and Software Requirements
+### Contents
+  * [Hardware Requirements](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_hardware_requirements)
+  * [Certified Operating Systems](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_certified_operating_systems)
+  * [Prerequisite Software](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_prerequisite_software)
+  * [Shell](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_shell)
+  * [Utilities](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_utilities)
+  * [NTP](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_ntp)
+  * [Firewall](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_fw)
+  * [Browser](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_browser)
+  * [Hardware Recommendations](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_hardware_recommendations)
+  * [Personal Use](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_personal_use)
+  * [Development, UAT, or SIT System](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_development_uat_or_sit_system)
+  * [Production System](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_production_system)
+  * [Additional Considerations](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_additional_considerations)
+
+
+This page details the system requirements and recommendations for running TigerGraph in a production or development environment.
+## [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_hardware_requirements)Hardware Requirements
+  * **CPU** : The TigerGraph database runs on x86_64 CPUs, with a minimum of 4 cores. See the [Hardware Recommendations](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_hardware_recommendations) section for additional considerations.
+  * **Disk Storage** : Solid State Disk (SSD) storage is required, not just to improve performance, but also to avoid timeout and other timing issues.
+
+
+## [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_certified_operating_systems)Certified Operating Systems
+The TigerGraph Software Suite is designed to run on 64-bit Linux. It can run on a variety of Linux 64-bit distributions. The software has been tested on the operating systems listed below:
+Table 1. List of certified OS Distro | Supported  
+---|---  
+RedHat (RHEL) 7.0 to 8.9 | ✓  
+RedHat (RHEL) 9 | ✓  
+CentOs 6.5 to 8.0 | ✓  
+Amazon Linux 2016.03 to 2018.03 | ✓  
+Ubuntu 16.04 LTS | ✓  
+Ubuntu 18.04 LTS | ✓  
+Ubuntu 20.04 LTS | ✓  
+Ubuntu 22.04 LTS | ✓  
+Debian 10 & 11 | ✓  
+Suse 12 | ✓  
+Oracle Linux 8.0 to 8.4 | ✓  
+Windows (all version) | X  
+MacOS (Intel and M1 chip) | X  
+When a range of versions is given, it means that the software has been tested on the oldest and newest versions. We continually evaluate the operating systems on the market and work to update our set of supported operating systems as needed.
+The TigerGraph installer installs its own copies of Java JDK and GCC, accessible only to the TigerGraph Linux user, to avoid interfering with any other applications on the same server.
+## [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_prerequisite_software)Prerequisite Software
+### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_shell)Shell
+Use a bash shell for the installation process.
+### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_utilities)Utilities
+Before offline installation, the TigerGraph system needs a few basic software packages to be present:
+  * `crontab`
+  * `curl`
+  * `ip`
+  * `more`
+  * `netcat`
+  * `netstat`
+  * `net-tools`
+  * `ssh`/`sshd` (Only required for cluster installation)
+  * `sshpass`
+  * `tar`
+
+
+If they are not present, the TigerGraph installer will exit with an error reporting which packages are missing. Contact your system administrator to have them installed on your target system. For example, they can be installed with one of the following commands.   
+---  
+```
+# Centos or RedHat:
+sudo yum install tar curl cronie iproute util-linux-ng net-tools nc coreutils openssh-clients openssh-server sshpass
+
+# Ubuntu or Debian (Except Ver 18.04):
+sudo apt install tar curl cron iproute util-linux net-tools netcat coreutils openssh-client openssh-server sshpass
+
+# Ubuntu or Debian (Ver. 18.04):
+sudo apt install tar curl cron iproute2 util-linux net-tools netcat coreutils openssh-client openssh-server sshpass
+![copy icon](https://docs.tigergraph.com/_/img/octicons-16.svg#view-clippy)Copied!
+
+```
+
+### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_ntp)NTP
+If you are running TigerGraph on a multi-node cluster, you **must** install, configure and run the NTP (Network Time Protocol) daemon service. This service will synchronize system time among all cluster nodes.
+### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_fw)Firewall
+If you are running TigerGraph on a multi-node cluster, you **must** configure the iptables/firewall rules to make all TCP ports open among all cluster nodes.
+### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_browser)Browser
+In an on-premises installation, the system is fully functional without a web browser. To run the optional browser-based TigerGraph GraphStudio User Interface or Admin Portal, you need an appropriate browser:
+Browser | Chrome | Safari | Firefox | Opera | Edge | Internet Explorer  
+---|---|---|---|---|---|---  
+Supported version | 54.0+ | 11.1+ | 59.0+ | 52.0+ | 80.0+ | 10+  
+Other browser-based products, such as TigerGraph Insights, have their own browser requirements. See their corresponding documentation.
+## [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_hardware_recommendations)Hardware Recommendations
+Choosing the right hardware to host your TigerGraph system is crucial for the right balance of cost and performance. This page provides some general guidelines for hardware selection based on simple hypothetical assumptions, but your actual hardware requirements will vary based on your data size, workload, and performance requirements.
+The sizing recommendations below apply to each server node. If you have more than several hundred gigabytes of data, you should consider deploying a cluster of multiple nodes, to distribute your data.
+Consult a TigerGraph solution architects for an estimate of memory and storage needs.   
+---  
+### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_personal_use)Personal Use
+Example profile: A single user on a personal computer (desktop or laptop), who is learning to use the software and to write applications.
+Component | Specification  
+---|---  
+CPU | 4 cores (≥ 2.10GHz)  
+RAM | 8 GB  
+Storage | ≥ 50 GB (SSD)  
+Network | 1 Gigabit Ethernet adapter  
+### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_development_uat_or_sit_system)Development, UAT, or SIT System
+Component | Specification  
+---|---  
+CPU | ≥ 16 cores (≥ 3.00GHz)  
+RAM | ≥ 32 GB  
+Storage | ≥ 300 GB (SSD)  
+Network | 1 Gigabit Ethernet adapter  
+### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_production_system)Production System
+Production systems should consider having replica clusters for redundancy and availability.   
+---  
+Component | Specification  
+---|---  
+CPU | ≥ 32 cores (≥ 3.40GHz)  
+RAM | ≥ 64 GB  
+Storage | ≥ 500 GB (SSD)  
+Network | 10 Gigabit Ethernet adapter  
+### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_additional_considerations)Additional Considerations
+This section describes considerations beyond sizing for the CPU, memory, and storage.
+#### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_cpu)CPU
+Choosing the right CPU model is important. For example, **Intel Core i5** may be good enough for development or certain test systems where latency and throughput are not critical. For production systems, we suggest higher grade CPUs such as **Intel Core i7** , **Intel Xeon Gold** , and **AMD Epyc**.
+CPU clock speeds are not directly comparable across different processor designs, but within the same processor family, faster is better. We highly recommend using a **speed of 3.00GHz or higher**.
+Below is an example of a production hardware configuation.
+```
+Architecture:    x86_64
+CPU op-mode(s):   32-bit, 64-bit
+Byte Order:     Little Endian
+CPU(s):       24
+On-line CPU(s) list: 0-23
+Thread(s) per core: 1
+Core(s) per socket: 1
+Socket(s):      24
+NUMA node(s):    1
+Vendor ID:      GenuineIntel
+CPU family:     6
+Model:        85
+Model name:     Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
+Stepping:      7
+CPU MHz:       2992.969
+![copy icon](https://docs.tigergraph.com/_/img/octicons-16.svg#view-clippy)Copied!
+
+```
+
+#### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_ram_memory)RAM (Memory)
+RAM is needed both to _store_ a working copy of our data and to do _computational_ work. TigerGraph is a hybrid in-memory database, meaning that in order to achieve maximum performance, it will attempt to load a copy of your entire working graph into RAM. The RAM size is based on multiple factors:
+  * Type of workload (e.g., OLAP/OLTP queries, intensive CRUD operation…​.)
+  * Query SLAs
+  * Dataset partitioning (number of partitions in your TigerGraph cluster)
+
+
+RAM is not only size but also type. DDR4 or faster is recommended because it gives you significantly faster data transfer rates, better power efficiency, and better data granularity than DDR3.
+#### [](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_disk)Disk
+As stated in the [Hardware Requirements](https://docs.tigergraph.com/tigergraph-server/4.2/installation/hw-and-sw-requirements#_hardware_requirements) section, solid state drive (SSD) storage is **mandatory** for TigerGraph. The longer data access times of spinning hard disks (HDD) can cause several issues, such as the following:
+  * Timeouts between internal components of TigerGraph
+  * Issues when making a backup of a TigerGraph data
+  * Issues when restoring a TigerGraph database
+  * Low performance
+
+
+We recommend using different mount points for the App, Data, Log and Temp directories to avoid one single point of failure. This can be defined while installing TigerGraph (either via interactive mode or non-interactive mode). Here is an example of how to specify different mount points in the `install_config.json` file.
+```
+"RootDir": {
+"AppRoot": "/mnt1/app",
+"DataRoot": "/mnt2/data",
+"LogRoot": "/mnt3/log"
+"TempRoot": "/mnt4/tmp"
+},
+![copy icon](https://docs.tigergraph.com/_/img/octicons-16.svg#view-clippy)Copied!
+
+```
+
+To economize, you can opt to use a magnetic hard disk (HDD) for the logs; the remaining ones must be SSD.   
+---  
+Disks must be mounted with the **exec** option to AppRoot and DataRoot. Failure to do so will result in the inability to run any installed queries. Users can check the disk option by running the _mount_ command in a shell, e.g. ```
+$ mount
+/dev/sda2 on / type xfs (rw,relatime,seclabel,attr2,inode64,noquota)![copy icon](https://docs.tigergraph.com/_/img/octicons-16.svg#view-clippy)Copied!
+```
+The **noexec** option will be shown when the disk is mounted without the **exec** option.  
+---  
+Another important point when choosing the Disk type is the disk IOPS capacity. We **strongly** suggest opting for ≥3000 IOPS.
+3 Twin Dolphin Drive, Ste 225 Redwood City, CA 94065 
+Copyright © 2025 TigerGraph
+  * ## Resources
+    * [Support](https://www.tigergraph.com/support/)
+    * [Community](https://community.tigergraph.com/)
+    * [Developer Site](https://dev.tigergraph.com/)
+    * [Test Drive](https://testdrive.tigergraph.com/)
+  * ## Social
+    * [Linkedin](https://www.linkedin.com/company/tigergraph/)
+    * [Facebook](https://www.facebook.com/TigerGraphDB/)
+    * [Twitter](https://twitter.com/tigergraphdb)
+  * ## Legal
+    * [Privacy Policy](https://www.tigergraph.com/privacy-policy/)
+    * [Terms of Use](https://www.tigergraph.com/terms/)
+    * [Sitemap](https://docs.tigergraph.com/sitemap.xml)
+
+
